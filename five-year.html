@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five-Year Plan | KUOHSSA</title>
+  <link rel="stylesheet" href="five-year.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+  
+  <!-- Strategic Plan Section -->
+  <section class="strategic-plan-section">
+    <div class="container">
+      <h2 class="section-title">Strategic Five-Year Plan (2023-2028)</h2>
+
+      <h3 style="color: #15803d;">Mission Statement:</h3>
+      <i>
+        <p>To promote safety, well- being, and professional growth among our members, while fostering a culture of  safety awareness on campus and beyond.</p>
+      </i>
+      
+
+      <h3 style="color: #15803d;">Vision Statement:</h3>
+      <i>
+        <p>To become a leading student organization that prepares members for successful careers in  Occupational Health and Safety, while making a positive impact on our community</p>
+      </i>
+
+      <!-- Year 1 -->
+      <div class="year">
+        <h3 class="year-title">Year 1: Building Foundations (2023/2024)</h3>
+        <div class="goals">
+          <div class="goal">
+            <h4 class="goal-title">Goal 1: Increase Club Membership and Engagement</h4>
+            <ul>
+              <li>Recruit a minimum of 50 new members.</li>
+              <li>Host monthly member meetings and social events to foster engagement.</li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h4 class="goal-title">Goal 2: Educational Initiatives</h4>
+            <ul>
+              <li>Conduct at least  six workshops or training sessions on key OSH topics.</li>
+              <li>Establish a mentorship program pairing experienced members with newcomers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Year 2 -->
+      <div class="year">
+        <h3 class="year-title">Year 2: Outreach and Awareness (2024/2025)</h3>
+        <div class="goals">
+          <div class="goal">
+            <h4 class="goal-title">Goal 3: Community Engagement</h4>
+            <ul>
+              <li>Collaborate with local schools to deliver safety education programs.</li>
+              <li>Organize a safety fair or event open to the campus and local community.</li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h4 class="goal-title">Goal 4: Industry Partnerships</h4>
+            <ul>
+              <li>Establish partnerships with at lest two local businesses for internship or site visits.</li>
+              <li>Invite OSH professionals to speak at club events.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Year 3 -->
+      <div class="year">
+        <h3 class="year-title">Year 3: Skill Enhancement (2025/2026)</h3>
+        <div class="goals">
+          <div class="goal">
+            <h4 class="goal-title">Goal 5: Certification Support</h4>
+            <ul>
+              <li>Provide resources and support for members seeking OSH certifications.</li>
+              <li>Host a certification exam preparation workshop.</li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h4 class="goal-title">Goal 6: Research and Publications</h4>
+            <ul>
+              <li>Encourage and fund at least two research projects by club members.</li>
+              <li>Publish findings in a campus or external OSH journal.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Year 4 -->
+      <div class="year">
+        <h3 class="year-title">Year 4: Leadership Development (2026/2027)</h3>
+        <div class="goals">
+          <div class="goal">
+            <h4 class="goal-title">Goal 7: Leadership Training</h4>
+            <ul>
+              <li>Provide leadership training for the executive team and committee leaders.</li>
+              <li>Implement a leadership development program for all interested members.</li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h4 class="goal-title">Goal 8: Networking Opportunities</h4>
+            <ul>
+              <li>Organize a regional OSH conference or symposium.</li>
+              <li>Establish partnerships with other student organizations for collaborative projects.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Year 5 -->
+      <div class="year">
+        <h3 class="year-title">Year 5: Impact and Sustainability (2027/2028)</h3>
+        <div class="goals">
+          <div class="goal">
+            <h4 class="goal-title">Goal 9: Community Safety Initiatives</h4>
+            <ul>
+              <li>Conduct safety audits on campus and propose improvements.</li>
+              <li>Engage in at least one major community safety project.</li>
+            </ul>
+          </div>
+          <div class="goal">
+            <h4 class="goal-title">Goal 10: Ongoing Evaluation</h4>
+            <ul>
+              <li>Evaluate the success of the strategic plan and gather feedback from members.</li>
+              <li>Use feedback to create a new five-year plan that builds on achievements.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 KUOHSSA. All Rights Reserved.
+  </footer>
+
+  <script>
+    // Dynamically include the header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+
+    document.addEventListener('DOMContentLoaded', function() {
+  
+      const yearSections = document.querySelectorAll('.year'); 
+    });
+  </script>
+</body>
+</html>

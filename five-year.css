@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #15803d;
+    color: white;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .desktop-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .desktop-menu li {
+    display: inline;
+  }
+  
+  .desktop-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .desktop-menu li a:hover {
+    color: #b9f0c3;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Strategic Plan Section */
+  .strategic-plan-section {
+    padding: 120px 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #15803d;
+  }
+  
+  .year {
+    margin-bottom: 50px;
+    background: #f0f8f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .year-title {
+    font-size: 28px;
+    color: #15803d;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .goals {
+    margin-left: 20px;
+  }
+  
+  .goal-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .goal ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .goal ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .goal ul li:hover {
+    color: #15803d;
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  
+    .year {
+      margin-bottom: 30px;
+    }
+  
+    .year-title {
+      font-size: 24px;
+    }
+  }
+  

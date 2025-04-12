@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Include common header -->
+    <script>
+      // Dynamically include the header
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header-placeholder').innerHTML = data;
+        });
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="header-placeholder"></div> 
+<section class="hero">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="logo.jpg" alt="KUOHSSA Logo" />
+      </div>
+      <div class="hero-text">
+        <h2>ABOUT STATEMENT</h2>
+        <p>
+          Welcome to the Kenyatta University Occupational Health and Safety Student Association (KUOHSSA)—a vibrant community of students and professionals passionate about Occupational Health and Safety.
+        </p>
+        <p>
+          Together, we can make a lasting impact in the field of safety and contribute to a safer world for all.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Counter Section -->
+    <section class="counter">
+      <h2>Our Impact</h2>
+      <div class="counter-items">
+        <div>
+          <p id="members">0</p>
+          <p>Active Members</p>
+        </div>
+        <div>
+          <p id="events">0</p>
+          <p>Events Held</p>
+        </div>
+        <div>
+          <p id="workshops">0</p>
+          <p>Workshops Conducted</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline">
+      <div class="container">
+        <h2>Five Year Plan</h2>
+        <div class="timeline-items">
+          <div class="timeline-item">
+            <h3>Year 1: Building Foundations ( 2023/ 2024)</h3>
+            <p>Increase Club Membership and Engagement.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Year 2: Outreach and Awareness ( 2024/2025)</h3>
+            <p>Collaborate with local schools to deliver safety education programs.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Year 3: Skill Enhancement ( 2025/2026)</h3>
+            <p>Provide resources and support for members seeking OSH certifications..</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Year 4: Leadership Development ( 2026/2027)</h3>
+            <p>Provide leadership training for the executive team and committee leaders.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Year 5: Impact and Sustainability  (2027/2028)</h3>
+            <p>Conduct safety audits on campus and propose improvements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 KUOHSSA. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="home.js"></script>
+  </body>
+</html>

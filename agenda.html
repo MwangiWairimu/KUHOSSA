@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KUOHSSA | Strategic Agenda</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+    }
+
+    header {
+      background-color: #2f855a; /* KUOHSSA Green */
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 0.95em;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      color: #2f855a;
+      font-size: 1.2em;
+    }
+
+    .card p {
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #2f855a;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main>
+    <h2 class="section-title" style="text-align: center; color:#2f855a">STRATEGIC AGENDA</h2>
+    <div class="card">
+      <h2>1. Safety Advocacy Campaigns</h2>
+      <p>Develop and execute campaigns to raise awareness about safety issues on campus or in the community. Focus on ergonomics, mental health, fire safety, and workplace safety.</p>
+    </div>
+
+    <div class="card">
+      <h2>2. Guest Speaker Series</h2>
+      <p>Organize regular talks and seminars with industry experts, OSH professionals, and alumni to share their insights and experiences.</p>
+    </div>
+
+    <div class="card">
+      <h2>3. Training and Workshops</h2>
+      <p>Offer hands-on workshops on OSH topics such as first aid, risk assessment, and safety protocol implementation.</p>
+    </div>
+
+    <div class="card">
+      <h2>4. Certification Support</h2>
+      <p>Assist members in acquiring safety certifications by providing resources, study groups, and exam preparation materials.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. Collaboration with Industry</h2>
+      <p>Partner with local businesses and organizations to provide internship opportunities, site visits, and real-world OSH experience.</p>
+    </div>
+
+    <div class="card">
+      <h2>6. Community Outreach</h2>
+      <p>Engage in outreach programs like school visits, safety fairs, or volunteering for disaster relief efforts to promote safety awareness.</p>
+    </div>
+
+    <div class="card">
+      <h2>7. Research and Publications</h2>
+      <p>Encourage members to undertake OSH-related research and publish findings in journals or present at conferences.</p>
+    </div>
+
+    <div class="card">
+      <h2>8. Networking Events</h2>
+      <p>Host events that allow members to connect with OSH professionals, potential employers, and alumni.</p>
+    </div>
+
+    <div class="card">
+      <h2>9. Mentorship Program</h2>
+      <p>Establish a mentorship system where experienced members provide guidance and support to newcomers in their OSH journey.</p>
+    </div>
+
+    <div class="card">
+      <h2>10. Safety Audits</h2>
+      <p>Conduct safety audits on campus or in the community to identify hazards and recommend improvements.</p>
+    </div>
+
+    <div class="card">
+      <h2>11. Collaborative Projects</h2>
+      <p>Collaborate with other student organizations or departments on interdisciplinary projects that promote safety and well-being.</p>
+    </div>
+
+    <div class="card">
+      <h2>12. Emergency Response Training</h2>
+      <p>Provide CPR and first aid certification training sessions to equip members with life-saving skills.</p>
+    </div>
+
+    <div class="card">
+      <h2>13. Annual Conferences or Symposiums</h2>
+      <p>Organize an annual OSH conference or symposium where members can present research, attend workshops, and network with professionals.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 KUOHSSA. All rights reserved.
+  </footer>
+
+  <script>
+    // Dynamically include the header
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
